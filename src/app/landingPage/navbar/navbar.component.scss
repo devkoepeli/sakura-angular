@@ -1,0 +1,57 @@
+.header {
+    position: absolute;
+    top: 24px;
+    left: 80px;
+    right: 80px;
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+
+    &-container {
+        max-width: 1440px;
+        width: 100%;
+        padding-left: 64px;
+        padding-right: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-logo {
+        width: 64px;
+    }
+
+    &-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &-link {
+        display: inline-block;
+        text-decoration: none;
+        color: whitesmoke;
+        margin-left: 32px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &-button {
+            padding: 8px 12px;
+            background-color: #9F0908;
+            border-radius: 8px;
+            border: 2px solid whitesmoke;
+            transition: transform .2s ease;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                transform: scale(1.025);
+            }
+
+            > img {
+                padding-right: 4px;
+            }
+        }  
+    }
+}

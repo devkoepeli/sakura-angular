@@ -1,0 +1,68 @@
+@import './../../styles.scss';
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: 'Raleway';
+    background-image: url('../../assets/img/menu/desktop@3x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        padding-left: 64px;
+        padding-right: 64px;
+
+        h2 {
+            color: $red-text;
+            font-size: $h2-size;
+            text-align: center;
+            padding-bottom: 64px;
+        }
+    }
+}
+
+.dish {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 56px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+
+    > img {
+        width: 352px;
+    }
+
+    &-right {
+        justify-content: end;
+
+        > img {
+            order: 1;
+        }
+    }
+}
+
+h3 {
+    font-family: 'Economica';
+    font-size: 56px;
+    padding-bottom: 16px;
+}
+
+table {
+    tr > td {
+        padding-right: 112px;
+    }
+
+    td {
+        font-size: 32px;
+        color: #675E54;
+        font-weight: bold;
+    }
+}
