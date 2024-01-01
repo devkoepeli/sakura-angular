@@ -1,0 +1,43 @@
+footer {
+    height: 144px;
+    background-color: #0A141E;
+    color: whitesmoke;
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > div {
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        div:first-child {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        
+            img {
+                height: 44px;
+            }
+        
+            span {
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
+        
+        div:last-child {
+            a {
+                text-decoration: none;
+                color: inherit;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
