@@ -1,0 +1,30 @@
+@import '../../styles.scss';
+
+.location {
+    padding-top: 120px;
+    font-family: 'Raleway';
+
+    h2 {
+        font-size: $h2-size;
+        color: $red-text;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    &-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-size: 24px;
+        padding-bottom: 64px;
+    }
+
+    &-map {
+        height: 600px;
+        background-image: url('./../../assets/img/location/1.\ Desktop@3x.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
