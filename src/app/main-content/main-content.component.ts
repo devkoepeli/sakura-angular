@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LandingPageComponent } from '../landingPage/landingPage.component';
-import { HowToOrderComponent } from '../how-to-order/how-to-order.component';
-import { OurMenuComponent } from '../our-menu/our-menu.component';
-import { LocationComponent } from '../location/location.component';
+import { LandingPageComponent } from './landingPage/landingPage.component';
+import { HowToOrderComponent } from './how-to-order/how-to-order.component';
+import { OurMenuComponent } from './our-menu/our-menu.component';
+import { LocationComponent } from './location/location.component';
 
 @Component({
   selector: 'app-main-content',

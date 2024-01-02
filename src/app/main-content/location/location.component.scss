@@ -1,4 +1,4 @@
-@import '../../styles.scss';
+@import '../../../styles.scss';
 
 .location {
     padding-top: 120px;
@@ -22,7 +22,7 @@
 
     &-map {
         height: 600px;
-        background-image: url('./../../assets/img/location/1.\ Desktop@3x.jpg');
+        background-image: url('./../../../assets/img/location/1desktop@3x.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
