@@ -1,11 +1,12 @@
+@import './../../../shared/styles/mixins.scss';
+
 .header {
     position: absolute;
     top: 24px;
-    left: 80px;
-    right: 80px;
+    left: 0;
+    right: 0;
     font-family: 'Raleway';
-    display: flex;
-    justify-content: center;
+    @include flexbox($jc: center);
 
     &-container {
         max-width: 1440px;
@@ -22,8 +23,7 @@
     }
 
     &-nav {
-        display: flex;
-        align-items: center;
+        @include flexbox($g: 8px);
     }
 
     &-link {
@@ -39,11 +39,9 @@
         &-button {
             padding: 8px 12px;
             background-color: #9F0908;
-            border-radius: 8px;
-            border: 2px solid whitesmoke;
+            @include borderStyling(8, 2, solid);
             transition: transform .2s ease;
-            display: flex;
-            align-items: center;
+            @include flexbox();
 
             &:hover {
                 transform: scale(1.025);

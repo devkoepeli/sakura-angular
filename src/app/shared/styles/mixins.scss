@@ -1,0 +1,13 @@
+@mixin borderStyling($rSize, $bSize, $style) {
+    border-radius: #{$rSize}px;
+    border: #{$bSize}px $style whitesmoke;
+}
+
+@mixin flexbox($fd: row, $jc: space-between, $ai: center, $g: 0px) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $g;
+}
+

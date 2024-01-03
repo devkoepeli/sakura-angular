@@ -1,4 +1,4 @@
-@import './../../../styles.scss';
+@import './../../shared/styles/variables.scss';
 
 section {
     padding-top: 120px;
@@ -18,8 +18,8 @@ section {
         padding-right: 64px;
 
         h2 {
-            color: $red-text;
             font-size: $h2-size;
+            color: $red-text;
             text-align: center;
             padding-bottom: 64px;
         }
